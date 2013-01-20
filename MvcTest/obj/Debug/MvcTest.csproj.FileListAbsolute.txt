@@ -97,3 +97,7 @@ E:\GITRepositories\Test\MvcTest\bin\System.Web.WebPages.Deployment.xml
 E:\GITRepositories\Test\MvcTest\bin\System.Web.WebPages.Razor.xml
 E:\GITRepositories\Test\MvcTest\bin\ar\SocialFruits.Localization.Common.resources.dll
 E:\GITRepositories\Test\MvcTest\bin\en\SocialFruits.Localization.Common.resources.dll
+E:\GITRepositories\Test\MvcTest\bin\System.Net.Http.dll
+E:\GITRepositories\Test\MvcTest\bin\System.Net.Http.WebRequest.dll
+E:\GITRepositories\Test\MvcTest\bin\System.Net.Http.xml
+E:\GITRepositories\Test\MvcTest\bin\System.Net.Http.WebRequest.xml

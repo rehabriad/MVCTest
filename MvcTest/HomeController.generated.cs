@@ -44,30 +44,6 @@ namespace MvcTest.Controllers
             return RedirectToRoutePermanent(callInfo.RouteValueDictionary);
         }
 
-        [NonAction]
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public System.Web.Mvc.JsonNetResult JsonNet()
-        {
-            return new T4MVC_System_Web_Mvc_JsonNetResult(Area, Name, ActionNames.JsonNet);
-        }
-        [NonAction]
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public System.Web.Mvc.ActionResult RedirectCheckReferrer()
-        {
-            return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.RedirectCheckReferrer);
-        }
-        [NonAction]
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public System.Web.Mvc.ActionResult RedirectCheckReferrerFromUri()
-        {
-            return new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.RedirectCheckReferrerFromUri);
-        }
-        [NonAction]
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public System.Web.Mvc.XmlResult Xml()
-        {
-            return new T4MVC_System_Web_Mvc_XmlResult(Area, Name, ActionNames.Xml);
-        }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public HomeController Actions { get { return MVC.Home; } }
@@ -85,55 +61,15 @@ namespace MvcTest.Controllers
         public class ActionNamesClass
         {
             public readonly string Index = "Index";
-            public readonly string JsonNet = "JsonNet";
-            public readonly string RedirectCheckReferrer = "RedirectCheckReferrer";
-            public readonly string RedirectCheckReferrerFromUri = "RedirectCheckReferrerFromUri";
-            public readonly string Xml = "Xml";
         }
 
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public class ActionNameConstants
         {
             public const string Index = "Index";
-            public const string JsonNet = "JsonNet";
-            public const string RedirectCheckReferrer = "RedirectCheckReferrer";
-            public const string RedirectCheckReferrerFromUri = "RedirectCheckReferrerFromUri";
-            public const string Xml = "Xml";
         }
 
 
-        static readonly ActionParamsClass_JsonNet s_params_JsonNet = new ActionParamsClass_JsonNet();
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public ActionParamsClass_JsonNet JsonNetParams { get { return s_params_JsonNet; } }
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public class ActionParamsClass_JsonNet
-        {
-            public readonly string data = "data";
-        }
-        static readonly ActionParamsClass_RedirectCheckReferrer s_params_RedirectCheckReferrer = new ActionParamsClass_RedirectCheckReferrer();
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public ActionParamsClass_RedirectCheckReferrer RedirectCheckReferrerParams { get { return s_params_RedirectCheckReferrer; } }
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public class ActionParamsClass_RedirectCheckReferrer
-        {
-            public readonly string referrer = "referrer";
-        }
-        static readonly ActionParamsClass_RedirectCheckReferrerFromUri s_params_RedirectCheckReferrerFromUri = new ActionParamsClass_RedirectCheckReferrerFromUri();
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public ActionParamsClass_RedirectCheckReferrerFromUri RedirectCheckReferrerFromUriParams { get { return s_params_RedirectCheckReferrerFromUri; } }
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public class ActionParamsClass_RedirectCheckReferrerFromUri
-        {
-            public readonly string uri = "uri";
-        }
-        static readonly ActionParamsClass_Xml s_params_Xml = new ActionParamsClass_Xml();
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public ActionParamsClass_Xml XmlParams { get { return s_params_Xml; } }
-        [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
-        public class ActionParamsClass_Xml
-        {
-            public readonly string data = "data";
-        }
         static readonly ViewsClass s_views = new ViewsClass();
         [GeneratedCode("T4MVC", "2.0"), DebuggerNonUserCode]
         public ViewsClass Views { get { return s_views; } }
@@ -158,34 +94,6 @@ namespace MvcTest.Controllers
         public override System.Web.Mvc.ActionResult Index()
         {
             var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.Index);
-            return callInfo;
-        }
-
-        public override System.Web.Mvc.JsonNetResult JsonNet(object data)
-        {
-            var callInfo = new T4MVC_System_Web_Mvc_JsonNetResult(Area, Name, ActionNames.JsonNet);
-            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "data", data);
-            return callInfo;
-        }
-
-        public override System.Web.Mvc.ActionResult RedirectCheckReferrer(string referrer)
-        {
-            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.RedirectCheckReferrer);
-            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "referrer", referrer);
-            return callInfo;
-        }
-
-        public override System.Web.Mvc.ActionResult RedirectCheckReferrerFromUri(System.Uri uri)
-        {
-            var callInfo = new T4MVC_System_Web_Mvc_ActionResult(Area, Name, ActionNames.RedirectCheckReferrerFromUri);
-            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "uri", uri);
-            return callInfo;
-        }
-
-        public override System.Web.Mvc.XmlResult Xml(object data)
-        {
-            var callInfo = new T4MVC_System_Web_Mvc_XmlResult(Area, Name, ActionNames.Xml);
-            ModelUnbinderHelpers.AddRouteValues(callInfo.RouteValueDictionary, "data", data);
             return callInfo;
         }
 

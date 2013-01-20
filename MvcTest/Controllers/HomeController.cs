@@ -8,7 +8,7 @@ using AttributeRouting;
 namespace MvcTest.Controllers
 {
     //[RoutePrefix("App/{pageid}/Home")]
-    public partial class HomeController : BaseController
+    public partial class HomeController : Controller
     {
         //
         // GET: /Home/

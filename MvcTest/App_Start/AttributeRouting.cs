@@ -44,12 +44,12 @@ namespace SocialFruits.App_Start
             //      It doesnt matter if the controller is decorated with [GET("GetUpdates/{id}")] or [POST("GetUpdates/{id}")]
 
 
-            routes.MapRoute(
-                "Default_app", // Route name
-                "App/{pageid}/{controller}/{action}/{id}", // URL with parameters
-               new { pageid = "0", controller = "Home", action = "index", id = UrlParameter.Optional },
-               new string[] {"SocialFruits.Controllers"} // Parameter defaults
-            );
+            //routes.MapRoute(
+            //    "Default_app", // Route name
+            //    "App/{pageid}/{controller}/{action}/{id}", // URL with parameters
+            //   new { pageid = "0", controller = "Home", action = "index", id = UrlParameter.Optional },
+            //   new string[] {"SocialFruits.Controllers"} // Parameter defaults
+            //);
 
 
 

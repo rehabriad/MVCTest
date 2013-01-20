@@ -304,11 +304,12 @@
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="T4MVC.tt.hooks.t4" />
+    <Content Include="T4MVC.tt.settings.t4" />
     <Content Include="T4MVC.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>T4MVC.cs</LastGenOutput>
     </Content>
+    <Content Include="T4MVC.tt.hooks.t4" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
